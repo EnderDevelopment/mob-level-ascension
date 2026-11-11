@@ -1,0 +1,14 @@
+name: MobLevels
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Gives every living mob a persistent level and scaled combat stats.
+commands:
+  moblevel:
+    description: Shows the level of the mob you are looking at.
+    usage: /moblevel
+    aliases: [ml]
+permissions:
+  moblevels.admin:
+    description: Allows changing mob levels.
+    default: op
